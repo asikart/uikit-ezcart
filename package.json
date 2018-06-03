@@ -8,7 +8,7 @@
   "scripts": {
     "build-scss": "make-dir src/scss/theme && make-dir src/scss/components && node build/scss",
     "compile": "yarn compile-less && yarn compile-js",
-    "compile-ezcart": "yarn compile-less && yarn compile-js && yarn scope -s ezcart-scope",
+    "compile-ezcart": "yarn compile-less && yarn scope -s ezcart-scope",
     "compile-js": "node build/build",
     "compile-less": "yarn icons && node build/less",
     "compile-rtl": "yarn compile-less rtl",
